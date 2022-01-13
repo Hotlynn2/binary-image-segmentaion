@@ -30,7 +30,7 @@ LOAD_MODEL = True
 TRAIN_IMG_DIR = "data/train_images/"
 TRAIN_MASK_DIR = "data/train_masks/"
 VAL_IMG_DIR = "data/val_images/"
-VAL_MASK_DIR = "data/val_masks/a"
+VAL_MASK_DIR = "data/val_masks/"
 
 def train_fn(loader, model, batch_size, optimizer, loss_fn, scaler):
     loop = tqdm(loader)
